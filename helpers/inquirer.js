@@ -7,9 +7,9 @@ const menuOpts = [
     name: "opcion",
     message: "What do you want to do?",
     choices: [
-      { value: 1, name: `${"1.".green} Search city ` },
-      { value: 2, name: `${"2.".green} History` },
-      { value: 0, name: `${"3.".green} Exit` },
+      { value: 1, name: `${"1. ".green} Search city ` },
+      { value: 2, name: `${"2. ".green} History` },
+      { value: 0, name: `${"3. ".green} Exit` },
     ],
   },
 ];
